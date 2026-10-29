@@ -1,0 +1,11 @@
+npm init -y
+npm install --save-dev jest
+npm pkg set scripts.test="jest"
+
+npm test
+
+npx jest --watch
+
+npx jest --coverage
+
+
